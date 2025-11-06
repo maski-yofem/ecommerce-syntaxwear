@@ -2,16 +2,16 @@
 
 .header{
     position: fixed;
-    top: 20px;
+    top: 70px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 100px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.225rem 1.25rem;
+    padding: 0rem 1rem;
     background-color: #ffffff;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .nav-center a, .nav-right a{
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #333333;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .nav-right img{
-    height: 20px;
+    height: 70px;
 }
 
 .nav-right a:hover img{
