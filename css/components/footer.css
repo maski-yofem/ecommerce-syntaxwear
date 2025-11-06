@@ -1,1 +1,88 @@
 /* footer.css - arquivo limpo (estilos removidos) */
+
+.footer{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-nav ul ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-nav strong{
+    color: #ededed;
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li a{
+    color: #ffffff;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
+
+.newsletter-form input{
+    border-radius: 30px;
+    color: #aaaaaa;
+    padding: 12px 20px;
+    width: 344px;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff;
+}
+
+.newsletter-form button{
+    border-radius: 30px;
+    border: 1px solid #000000;
+    padding: .5rem;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+    
+.newsletter-form button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-social span{
+    margin-bottom: 16px;
+    display: block;
+}
+
+.footer-social ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-social li a:hover img{
+    opacity: 0.7;
+}
+
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0;
+}
