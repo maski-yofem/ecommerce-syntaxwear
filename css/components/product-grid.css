@@ -44,7 +44,7 @@
     grid-template-rows: repeat(3, 300px);
     grid-template-areas:
         "top1 top1 top2 top2"
-        "top1 top1 midL"
+        "top1 top1 midL midR"
         "bottomL bottomL midL bottomR"; 
     gap: 30px;
 }
@@ -74,4 +74,4 @@
 .cta-group{
     display: flex;
     gap: 10px;
-}
+} 
