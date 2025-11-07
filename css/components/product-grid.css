@@ -1,4 +1,4 @@
-/* product-grid.css - arquivo limpo (estilos removidos) */
+/* product-grid.css */
 
 .card{
     background-position: center;
@@ -8,32 +8,32 @@
     border-radius: 20px;
 }
 
-.top1 /*highlight*/{
+.top1{
     grid-area: top1;
     background-image: url(../../images/products/card_imagem.jpg);
 }
 
-.top2 /*sneaker-roxo*/{
+.top2{
     grid-area: top2;
     background-image: url(../../images/products/roxo-verde-grid.jpg);
 }
 
-.midL /*model*/{
+.midL{
     grid-area: midL;
     background-image: url(../../images/products/modelo-feminino.jpg);
 }
 
-.midR /*sneaker-color*/{
+.midR{
     grid-area: midR;
     background-image: url(../../images/products/futurista-grid.jpg);
 }
 
-.bottomL /*sneaker-white*/{
+.bottomL{
     grid-area: bottomL;
     background-image: url(../../images/products/preto-branco-grid.jpg);
 }
 
-.bottomR /*sneaker-silver*/{
+.bottomR{
     grid-area: bottomR;
     background-image: url(../../images/products/moderno-grid.jpg);
 }
@@ -75,3 +75,30 @@
     display: flex;
     gap: 10px;
 } 
+
+@media (max-width: 768px){
+    .grid-section{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "top1 top1"
+            "bottomL bottomL"
+            "midL midR"
+            "midL bottomR"
+            "top2 top2"; 
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .top1{
+        min-height: 500px;
+    }
+
+    .midL{
+        min-height: 370px;
+    }
+
+    .bottomL, .top2{
+        min-height: 190px;
+    }
+}

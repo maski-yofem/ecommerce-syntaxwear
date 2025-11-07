@@ -1,4 +1,4 @@
-/* base.css - arquivo limpo (estilos removidos) */
+/* base.css */
 
 body{
     font-family: var(--fonte-principal);
@@ -9,6 +9,12 @@ main{
     padding: 2.5rem 2.5rem 2.5rem;
     max-width: 1360px; 
     margin: 0 auto;
+}
+
+@media (max-width: 1280px){
+    main{
+        padding: 0.625rem;
+    }
 }
 
 .btn{

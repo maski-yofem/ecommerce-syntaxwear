@@ -1,4 +1,4 @@
-/* product-category.css - arquivo limpo (estilos removidos) */
+/* product-category.css */
 
 .categories-section{
     padding-top: 40px;
@@ -54,3 +54,8 @@
     background-size: cover;
 }
 
+@media (max-width: 500px){
+    .category-card{
+        width: 100%;
+    }
+}
