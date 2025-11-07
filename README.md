@@ -46,7 +46,7 @@ Este é um projeto de front-end estático. Para visualizá-lo, basta abrir o arq
 
 1.  Clone este repositório:
     ```sh
-    git clone https://github.com/maski-yofem/ecommerce-syntaxwear
+    git clone https://github.com/maski-yofem/ecommerce-syntaxwear.git
     ```
 2.  Navegue até o diretório do projeto:
     ```sh
